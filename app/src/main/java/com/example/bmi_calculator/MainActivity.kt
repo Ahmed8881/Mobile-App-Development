@@ -86,7 +86,7 @@ class MainActivity : AppCompatActivity() {
             if (weight == 0 || height == 0 || age == 0) {
                 Toast.makeText(this, "Please fill all values", Toast.LENGTH_SHORT).show()
                 return@setOnClickListener
-            }
+            }  
             val bmi = CalculateBMI(age,height,weight)
 
             val intent = Intent(this, ResultActivity::class.java)
