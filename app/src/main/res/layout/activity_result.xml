@@ -50,6 +50,8 @@
                     android:textSize="18sp"
                     android:paddingBottom="8dp"/>
 
+
+                
                 <TextView
                     android:id="@+id/tv_bmi_category"
                     android:layout_width="wrap_content"
